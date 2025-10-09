@@ -17,7 +17,7 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 ---
 
 ## Dasar Teori
-rsitektur sistem opperasi menentukan bagaimana OS mengelola perangat keras dan juga perankat lunak. Ada tiga model utama yang palig dikenal adalah *monolithic karnel*, *microkarnel*, dan yang satunya ada *layered architecture* yang masing-masing dari ketigannya memiliki kaakteristik  
+rsitektur sistem opperasi menentukan bagaimana OS mengelola perangat keras dan juga perankat lunak. Ada tiga model utama yang palig dikenal adalah *monolithic karnel*, *microkarnel*, dan yang satunya ada *layered architecture* yang masing-masing dari ketigannya memiliki kaakteristik.  
 
 ---
 
