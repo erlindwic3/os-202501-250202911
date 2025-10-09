@@ -5,21 +5,19 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : [ERLIN DWI CAYANTI]  
+- **NIM**   : [250202911]  
+- **Kelas** : [1IKRB]
 
 ---
 
-## Tujuan
-Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
+## Tujuan  
 > Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
 
 ---
 
 ## Dasar Teori
-Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
+rsitektur sistem opperasi menentukan bagaimana OS mengelola perangat keras dan juga perankat lunak. Ada tiga model utama yang palig dikenal adalah *monolithic karnel*, *microkarnel*, dan yang satunya ada *layered architecture* yang masing-masing dari ketigannya memiliki kaakteristik  
 
 ---
 
@@ -35,6 +33,7 @@ Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
 Tuliskan potongan kode atau perintah utama:
 ```bash
 uname -a
+whoami
 lsmod | head
 dmesg | head
 ```
