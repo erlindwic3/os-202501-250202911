@@ -252,7 +252,14 @@ uname(): Mendapatkan informasi tentang sistem operasi saat ini (nama OS, versi k
 chmod(): Mengubah izin akses (mode) sebuah file.
 
 ---
+#### Kesimpulan
+Berdasarkan eksperimen dan analisis mengenai System Call, mode operasi, serta alat diagnostik strace dan dmesg, berikut adalah 2-3 poin kesimpulan utama dari praktikum ini:
 
+System Call adalah Gerbang Proteksi Keamanan OS: System Call adalah mekanisme esensial yang mengimplementasikan Dual-Mode Operation (User Mode vs. Kernel Mode). Ini berfungsi sebagai satu-satunya titik masuk yang divalidasi dan terproteksi bagi program pengguna untuk mengakses sumber daya berhak istimewa (I/O, memori, hardware). Keberadaan System Call menjamin keamanan sistem dengan mengisolasi kernel dari kode aplikasi yang tidak tepercaya.
+
+Perbedaan Fungsi Alat Tracing dan Logging: Praktikum menunjukkan bahwa strace dan dmesg bekerja pada level yang berbeda: strace melacak System Call yang dihasilkan dari User Mode untuk memahami perilaku aplikasi, sementara dmesg menampilkan pesan yang dihasilkan dari Kernel Mode yang berfokus pada diagnostik dan interaksi hardware tingkat rendah.
+
+Kernel Mengendalikan Transisi Aman: Transisi dari User Mode ke Kernel Mode adalah proses yang sangat dikontrol dan diamankan oleh hardware (melalui trap dan mode proteksi CPU) dan software (melalui Syscall Table dan validasi parameter). Pengamanan ini sangat krusial untuk mencegah program jahat memanipulasi kernel dan menjaga integritas seluruh Sistem Operasi.
 ## Refleksi Diri
 Tuliskan secara singkat:
 - Apa bagian yang paling menantang minggu ini?  
