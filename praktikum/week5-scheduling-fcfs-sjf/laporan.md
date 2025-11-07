@@ -159,9 +159,9 @@ Berdasarkan eksperimen penjadwalan CPU, algoritma SJF terbukti secara signifikan
 ## Refleksi Diri
 Tuliskan secara singkat:
 - Apa bagian yang paling menantang minggu ini?  
-masih binung cara melakukan simulaisdan belum bisamembayangkan algoritma FCFS dan SJF diaplikaiskan secara nyata.
+masih bingung cara melakukan simulai dan belum bisa membayangkan algoritma FCFS dan SJF diaplikaiskan secara nyata.
 - Bagaimana cara Anda mengatasinya?  
-Mncari tahu cara mengsimulasikan dan mencari materi tambahan untuk meneyesaikan tugas ini.
+Mencari tahu cara mengsimulasikan dan mencari materi tambahan untuk meneyesaikan tugas ini.
 ---
 
 **Credit:**  
