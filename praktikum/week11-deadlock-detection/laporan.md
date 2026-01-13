@@ -106,7 +106,7 @@ jalankan_simulasi(list_proses, data_alokasi, data_request, sisa_resource)
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+![Screenshot hasil](screenshots/hasil_deteksi.png)
 
 ---
 
