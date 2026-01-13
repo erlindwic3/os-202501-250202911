@@ -1,20 +1,21 @@
 
-# Laporan Praktikum Minggu [X]
+# Laporan Praktikum Minggu [11]
 Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 
 ---
 
 ## Identitas
-- **Nama**  : [Nama Mahasiswa]  
-- **NIM**   : [NIM Mahasiswa]  
-- **Kelas** : [Kelas]
+- **Nama**  : [Erlin Dwi Cahyanti]  
+- **NIM**   : [250202911]  
+- **Kelas** : [1IKRB]
 
 ---
 
 ## Tujuan
-Tuliskan tujuan praktikum minggu ini.  
-Contoh:  
-> Mahasiswa mampu menjelaskan fungsi utama sistem operasi dan peran kernel serta system call.
+- Membuat program sederhana untuk mendeteksi deadlock.
+- Menjalankan simulasi deteksi deadlock dengan dataset uji.
+- Menyajikan hasil analisis deadlock dalam bentuk tabel.
+- Memberikan interpretasi hasil uji secara logis dan sistematis.
 
 ---
 
@@ -24,10 +25,7 @@ Tuliskan ringkasan teori (3–5 poin) yang mendasari percobaan.
 ---
 
 ## Langkah Praktikum
-1. Langkah-langkah yang dilakukan.  
-2. Perintah yang dijalankan.  
-3. File dan kode yang dibuat.  
-4. Commit message yang digunakan.
+
 
 ---
 
@@ -43,7 +41,7 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![Screenshot hasil](screenshots/example.png)
+![Screenshot hasil](screenshots/hasil_deteksi.png)
 
 ---
 
