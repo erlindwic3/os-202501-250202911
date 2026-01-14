@@ -8,9 +8,9 @@ Topik: [Virtualisasi Menggunakan Virtual Machine"]
 
 - **Nama** :
 
-  1. Erlin Dwi Cahyanti (250202911)
+1. Erlin Dwi Cahyanti (250202911)
 
-  2. Dyah Retno Wulandari (250202934)
+2. Dyah Retno Wulandari (250202934)
 
 - **Kelas** : [1IKRB]
 
