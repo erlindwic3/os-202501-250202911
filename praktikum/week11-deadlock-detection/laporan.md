@@ -120,6 +120,18 @@ Sertakan screenshot hasil percobaan atau diagram:
 | **P3** | R1, R2 | - | Selesai (Aman) |
 | **P4** | - | R1, R2 | Deadlock |
 
+> Simulasi menunjukkan bahwa sistem berada dalam kondisi Deadlock. Meskipun terdapat satu proses (P3) yang berhasil menyelesaikan eksekusi, sumber daya (R1 dan R2) yang dilepaskannya tidak cukup untuk memulihkan sistem dari kondisi macet.
+
+> Proses P1 dan P2 terjebak dalam kondisi Circular Wait, di mana P1 memegang R1 dan meminta R2, sementara P2 memegang R2 dan meminta R1.
+> Proses P4 menjadi korban tidak langsung; meskipun tidak memegang resource, ia tidak akan pernah mendapatkan alokasi karena resource yang dibutuhkannya (R1 dan R2) sedang ditahan oleh P1 dan P2 yang mengalami deadlock.
+> Hasil simulasi mengonfirmasi terpenuhinya empat kondisi utama deadlock: Mutual Exclusion (resource tidak bisa dipakai bersama), Hold and Wait (P1 & P2 memegang sambil meminta), No Preemption (resource tidak bisa dipaksa lepas), dan Circular Wait.
+Algoritma deteksi berhasil mengidentifikasi bahwa tidak ada urutan eksekusi (Safe Sequence) yang tersedia bagi proses P1, P2, dan P4.
+
+
+> Perbedaan di Lingkungan OS (Linux vs Windows):
+Dalam sistem operasi nyata seperti Linux, jika terjadi deadlock pada resource kritis, kernel mungkin tidak langsung menjalankan deteksi karena biaya komputasi (overhead) yang tinggi.
+Linux seringkali membiarkan sistem "hang" dan mengandalkan intervensi pengguna (seperti Force Quit atau Reboot).
+Namun, pada tingkat manajemen memori, Linux memiliki fitur seperti OOM (Out-of-Memory) Killer yang akan secara otomatis menghentikan proses tertentu jika sistem kehabisan sumber daya secara total.
 ---
 
 > P3 (Selesai): Proses ini adalah yang pertama selesai karena tidak meminta resource tambahan (Request: 0). Setelah selesai, P3 melepaskan R1 dan R2.
