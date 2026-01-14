@@ -38,7 +38,12 @@ csv` yang berisi daftar proses, alokasi sumber daya saat ini (Allocation), dan p
 2. **Implementasi Kode:** Tulis logika algoritma deteksi deadlock menggunakan bahasa pemrograman seperti Python untuk mendeteksi siklus dalam graf atau kondisi ketidakmampuan memenuhi permintaan sumber daya.
 3. **Eksekusi Program:** Jalankan skrip melalui terminal untuk mengecek apakah sistem berada dalam kondisi aman atau deadlock.
 4. **Validasi:** Bandingkan hasil output dengan analisis manual berdasarkan tabel dataset.
-
+5. **Commit & Push:**
+    ```bash
+   git add .
+   git commit -m "Minggu 11 - Deadlock Detection"
+   git push origin main
+   ```
 
 **Dokumentasi:** Dokumentasikan hasil eksekusi dan screenshot output serta penjelasannya.
 
